@@ -1,0 +1,59 @@
+
+<div id="Haut">
+  <nav class="mnav">
+      <ul id="tabhaut">
+          <li class="brand">
+              <a href="/">
+                <%= image_tag("flynn-acaf9509.svg", :alt => "flynn", size: "90x37") %>
+              </a>
+          </li>
+        	<div id="tabhautg">
+        	    <li class="item ">
+        	       <a href="https://flynn.io/about">About</a>
+        	    </li>
+        	    <li class="item ">
+        	       <a href="https://flynn.io/docs">Docs</a>
+        	    </li>
+        	    <li class="item ">
+        	       <a href="https://flynn.io/blog">Blog</a>
+        	    </li>
+        	    <li class="item ">
+        	       <a href="https://flynn.io/pricing">Pricing</a>
+        	    </li>
+        	    <li class="btn">
+        	       <a href="https://flynn.io/docs/installation">Try</a>
+        	    </li>
+        	</div>
+      </ul>
+  </nav>
+
+
+  <section class="content">
+      <h1 id="titl">
+          Throw away the duct tape. <br />
+          Say hello to Flynn.
+      </h1>
+
+      <video class="video-js" controls>
+          <source src="https://dl.flynn.io/assets/flynn_demo_2m.mp4" type="video/mp4">
+      </video>
+  </section>
+
+  <nav class="hnav">
+      <ul id="tab">
+          <li class="tabitem">
+              <a href="https://flynn.io/apps">Apps</a>
+          </li>
+          <li class="tabitem">
+              <a href="https://flynn.io/manage">Manage</a>
+          </li>
+          <li class="tabitem">
+              <a href="https://flynn.io/databases">Databases</a>
+          </li>
+      </ul>
+  </nav>
+</div>
+
+<%= render "/layouts/flynn/central_text"%>
+
+<%= render "/layouts/flynn/footer" %>

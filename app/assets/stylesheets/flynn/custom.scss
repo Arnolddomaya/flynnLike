@@ -1,0 +1,334 @@
+.body{
+ 	box-sizing: border-box;
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ 	display: flex;
+ 	justify-content: center;
+
+ }
+.header{
+	display: flex;
+	background-color: green;
+}
+
+.menu{
+	margin-left: 60%;
+
+}
+
+.containers{
+	height: 150px;
+	text-align: center;
+	font-family: "League Spartan", sans-serif;
+	font-size: 2.0em;
+	margin-top: 100px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-left: 60%;
+	background-color: blue;
+}
+
+.tab{
+	height: 50px;
+	border-style: solid;
+	display: flex;
+	justify-content: center;
+}
+
+.text{
+	display: flex;
+	justify-content: center;
+	background-color: yellow;
+}
+
+h1{
+ 	font-size: 300%;
+}
+
+h3{
+
+}
+
+p{
+	color: #767276;
+}
+
+li{
+	color: #767276;
+}
+
+
+#Haut {
+	font-family: "League Spartan", sans-serif;
+	font-size: 16px;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+
+
+#tabhaut {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+
+
+
+}
+
+.item {
+
+	color: #1bb45e;
+	font-weight: 900;
+	padding: 0.88em 0.56em;
+	font-size: 20px;
+
+}
+
+.btn {
+
+	font-weight: 900;
+	background-color: #1bb45e;
+	color: white;
+	font-size: 20px;
+	border-radius: 1.82em;
+	padding: 0.88em 1.36em;
+
+
+}
+
+
+.brand {
+	margin-left: -40px;
+	padding-top: 0.56em;
+	left: 0;
+}
+
+#tabhautg {
+	display: flex;
+}
+
+#tabhaut > div > li.item > a:link {
+	text-decoration: none;
+	color: #1bb45e;
+
+}
+
+#tabhaut > div > li.btn > a:link {
+	text-decoration: none;
+	color: white;
+
+}
+
+
+#tabhaut > div > li.item > a:visited {
+	text-decoration: none;
+	color: #1bb45e;
+}
+
+#tabhaut > div > li.item:hover {
+	background-color: grey;
+}
+
+#tabhaut > div > li.item:hover a {
+	color: white;
+}
+
+
+h1 {
+
+	text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.video-js {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: -30px;
+}
+
+ul:not(#exception) {
+	list-style-type: none;
+}
+
+#tab {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.tabitem {
+	border: 2px solid #cccac7;
+	width: calc(100%/3);
+	text-align: center;
+	padding: 10px;
+	font-weight: 900;
+	font-size: 20px;
+	color: #1bb45e;
+}
+
+
+.hnav > ul > li > a:link {
+	text-decoration: none;
+	color: #1bb45e;
+
+}
+
+
+.tabitem:hover {
+	background-color: grey;
+}
+
+
+.hnav > ul > li:hover a {
+	color: white;
+}
+
+.content-container narrow-centered {
+	width: 60% !important;
+}
+
+h2 {
+	font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+	font-size: 3.425rem;
+	font-weight: 900;
+
+}
+
+ul#exception > li:hover a {
+	border-bottom: 1px dotted green;
+	text-decoration: none;
+}
+
+.try-now-btn {
+	font-weight: 900;
+	background-color: #1bb45e;
+	color: white;
+	font-size: 20px;
+	border-radius: 1.82em;
+	padding: 0.88em 1.36em;
+	text-decoration: none;
+
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#central-text {
+	width: 60%;
+	margin: auto;
+}
+
+.h4 {
+	font-size: 1.125rem;
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #727272;
+    line-height: 0.35em;
+}
+
+.content {
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #727272;
+    line-height: 1.75em;
+}
+
+h3 {
+	font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.2em;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#paragraph {
+    font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #727272;
+    line-height: 1.75em;
+    font-size: 1.125rem;
+}
+
+#email {
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+#email_box {
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    background-color: white;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+#subscribe {
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #1eb45d;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.4em 0.6em;
+    font-size: 1rem;
+}
+
+#fnav {
+	font-family: 'Montserrat-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: flex;
+	font-weight: 550;
+	justify-content: space-around;
+	font-size: 0.95rem;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+#fnav > li > a:link {
+	text-decoration: none;
+	color: #5a5a5a;
+
+}
+
+.copyright {
+	font-size: 0.75rem;
+	font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: #747474;
+    text-align: center;
+}
+
+#titl{
+	text-align: center;
+	font-size: 4.5rem;
+	font-weight: 900;
+	line-height: 100px;
+	color: black;
+	font-family: "League Spartan", sans-serif;
+}
